@@ -32,6 +32,8 @@ This tutorial outlines the process of filesharing between a Server Host and its 
 
 <h2>Deployment and Configuration Steps</h2>
 
+<h3>New Folders Setup</h3>
+
 <p>
 <h4>DC-1</h4>
 <img src="https://i.imgur.com/JbxD7oq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -61,6 +63,8 @@ For each of the folders, right-click on them and go to 'Properties'. Next, go th
 </p>
 <br />
 
+<h3>Folder Accessibility</h3>
+
 <p>
 <h4>Client-1 Shared Network to DC-1</h4>
 <img src="https://i.imgur.com/39BOaSZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -82,6 +86,8 @@ Lastly, notice how we can't access the No-Access Folder because as a non-adminis
 Permissions like in these examples are useful for increasing security within a domain, as well as to prevent more sensitive information from leaking.
 </p>
 <br />
+
+<h3>New Security Group</h3>
 
 <p>
 <h4>Active Directory New Security Group</h4>
