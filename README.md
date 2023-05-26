@@ -33,11 +33,11 @@ This tutorial outlines the process of filesharing between a Server Host and its 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<h3>DC-1</h3>
+<h4>DC-1</h4>
 <img src="https://i.imgur.com/JbxD7oq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<h3>Client-1</h3>
+<h4>Client-1</h4>
 <img src="https://i.imgur.com/uBjOZcr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<h3>DC-1 New Folders</h3>
+<h4>DC-1 New Folders</h4>
 <img src="https://i.imgur.com/j3ghhlj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -53,7 +53,7 @@ We will be editing these folders with different permissions that determine wheth
 <br />
 
 <p>
-<h3>Adding Permissions to Folders</h3>
+<h4>Adding Permissions to Folders</h4>
 <img src="https://i.imgur.com/lCa4Rqv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -62,13 +62,13 @@ For each of the folders, right-click on them and go to 'Properties'. Next, go th
 <br />
 
 <p>
-<h3>Client-1 Shared Network to DC-1</h3>
+<h4>Client-1 Shared Network to DC-1</h4>
 <img src="https://i.imgur.com/39BOaSZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<h3>Denied Access to Modify</h3>
+<h4>Denied Access to Modify</h4>
 <img src="https://i.imgur.com/njtbLqu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<h3>Access to Read & Modify</h3>
+<h4>Access to Read & Modify</h4>
 <img src="https://i.imgur.com/w7fCOGu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<h3>Denied Access</h3>
+<h4>Denied Access</h4>
 <img src="https://i.imgur.com/hk576if.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
@@ -84,9 +84,9 @@ Permissions like in these examples are useful for increasing security within a d
 <br />
 
 <p>
-<h3>Active Directory New Security Group</h3>
+<h4>Active Directory New Security Group</h4>
 <img src="https://i.imgur.com/zbC4fpN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<h3>Accountant Permissions</h3>
+<h4>Accountant Permissions</h4>
 <img src="https://i.imgur.com/spZ02SQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -95,7 +95,7 @@ Let's create a new group to utilize these permissions. In the DC-1 VM, go to the
 <br />
 
 <p>
-<h3>Adding Security Group to User</h3>
+<h4>Adding Security Group to User</h4>
 <img src="https://i.imgur.com/QK7YbTN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -104,7 +104,7 @@ To gain access to this folder, we will go back to the Active Directory Users and
 <br />
 
 <p>
-<h3>Accounting now accessible</h3>
+<h4>Accounting now accessible</h4>
 <img src="https://i.imgur.com/AaRMXGZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
